@@ -13,3 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Ignore crash logs and logs
+*.log
+
+# Ignore APK and AAB output
+*.apk
+*.aab
+
+# Ignore IntelliJ IDEA config for other platforms
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+
+# Ignore generated signing configs (if any)
+signing.properties
